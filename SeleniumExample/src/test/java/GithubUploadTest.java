@@ -62,6 +62,8 @@ public class GithubUploadTest {
         // 첫 번째 argument 로 전달 받음므로 .arguments[0].click() 은 target object 에 click() 메쏘드를 실행시킨 것. 따라서 예제에선
         // button 을 click() 하는 것을 simulate 함
         Thread.sleep(3000);
+
+        driver.get("https://www.hongik.ac.kr/index.do");
     }
 }
 

@@ -34,6 +34,7 @@ public class SeleniumTest1Test {
     private Map<String, Object> vars;
     JavascriptExecutor js;
 
+
     @Before
     public void setUp() {
         WebDriverManager.chromedriver().setup();
